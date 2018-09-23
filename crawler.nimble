@@ -11,3 +11,8 @@ bin           = @["crawler"]
 # Dependencies
 
 requires "nim >= 0.18.1"
+
+#[
+  this package requires SSL.
+  nimble build -d:ssl
+]#
